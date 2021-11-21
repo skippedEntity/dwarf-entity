@@ -33,11 +33,6 @@ marinaClickButton.addEventListener('click', (e) => {
     marinaClickButton.classList.toggle('marina-rotate');
     marinaClickButton.style.transform = 'rotate(0deg)';
   }
-
-  dwarfEntity.classList.add('skew');
-  setInterval(() => {
-    dwarfEntity.classList.remove('skew');
-  }, 2000);
 });
 
 marinaCode.addEventListener('click', (e) => {
